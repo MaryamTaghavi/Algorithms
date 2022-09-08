@@ -19,7 +19,7 @@ namespace CodeWare_SumOfDigits
 
             if ((sum + "").ToCharArray().Length == 1)
                 return sum;
-            
+
             return DigitalRoot(sum);
         }
     }
