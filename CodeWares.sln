@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumeralsEncoder", "Rom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatePhoneNumber", "CreatePhoneNumber\CreatePhoneNumber.csproj", "{35948702-8A2D-4F88-A789-3B998201B7FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingZerosToTheEnd", "MovingZerosToTheEnd\MovingZerosToTheEnd.csproj", "{CE3E7E2C-EFE5-47B6-9257-35328E0CB45E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingZerosToTheEnd", "MovingZerosToTheEnd\MovingZerosToTheEnd.csproj", "{CE3E7E2C-EFE5-47B6-9257-35328E0CB45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingArithmeticProgression", "FindMissingArithmeticProgression\FindMissingArithmeticProgression.csproj", "{BA8A4D43-5EAF-44E9-91A1-22703588E6D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CE3E7E2C-EFE5-47B6-9257-35328E0CB45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3E7E2C-EFE5-47B6-9257-35328E0CB45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3E7E2C-EFE5-47B6-9257-35328E0CB45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8A4D43-5EAF-44E9-91A1-22703588E6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8A4D43-5EAF-44E9-91A1-22703588E6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8A4D43-5EAF-44E9-91A1-22703588E6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8A4D43-5EAF-44E9-91A1-22703588E6D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
