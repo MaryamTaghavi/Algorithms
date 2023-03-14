@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheOddInt", "FindTheOdd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{934B5A3F-B1EC-4156-B8BA-E72E5E59AFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingBigNumbers", "AddingBigNumbers\AddingBigNumbers.csproj", "{E4A57BFC-1303-462D-A395-0C75F257C99F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddingBigNumbers", "AddingBigNumbers\AddingBigNumbers.csproj", "{E4A57BFC-1303-462D-A395-0C75F257C99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyramidSlideDown", "PyramidSlideDown\PyramidSlideDown.csproj", "{BE9B6473-EF1F-4CCC-B040-2EBDC12A64B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{E4A57BFC-1303-462D-A395-0C75F257C99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4A57BFC-1303-462D-A395-0C75F257C99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4A57BFC-1303-462D-A395-0C75F257C99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9B6473-EF1F-4CCC-B040-2EBDC12A64B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9B6473-EF1F-4CCC-B040-2EBDC12A64B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9B6473-EF1F-4CCC-B040-2EBDC12A64B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9B6473-EF1F-4CCC-B040-2EBDC12A64B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
