@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PyramidSlideDown", "Pyramid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBToHexConversion", "RGBToHexConversion\RGBToHexConversion.csproj", "{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumerals\RomanNumerals.csproj", "{C1719D5C-6BAE-43D9-9518-BBA330D35C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
