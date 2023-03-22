@@ -52,6 +52,9 @@ namespace PaginationHelper
                     var num = _collection.Count() / _itemsPerPage;
                     var remaining = _collection.Count() % _itemsPerPage;
                     return remaining > 0 ? num + 1 : num;
+
+                    //Best Answer 
+                    //return (collection.Count - 1) / itemsPerPage + 1;
                 }
             }
 
