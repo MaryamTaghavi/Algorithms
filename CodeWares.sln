@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryMultipleOf3", "Binary
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationHelper", "PaginationHelper\PaginationHelper.csproj", "{17126EE7-1B42-4217-A369-03E795F5975C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "SimpleArraySum\Graph.csproj", "{3824F8AE-AAAB-497B-BAAF-F7F50D64A96D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{6CF6A211-8220-4843-80CA-D5D9DD6AC555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,10 +101,10 @@ Global
 		{17126EE7-1B42-4217-A369-03E795F5975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17126EE7-1B42-4217-A369-03E795F5975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17126EE7-1B42-4217-A369-03E795F5975C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3824F8AE-AAAB-497B-BAAF-F7F50D64A96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3824F8AE-AAAB-497B-BAAF-F7F50D64A96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3824F8AE-AAAB-497B-BAAF-F7F50D64A96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3824F8AE-AAAB-497B-BAAF-F7F50D64A96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF6A211-8220-4843-80CA-D5D9DD6AC555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF6A211-8220-4843-80CA-D5D9DD6AC555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF6A211-8220-4843-80CA-D5D9DD6AC555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF6A211-8220-4843-80CA-D5D9DD6AC555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
