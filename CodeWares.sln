@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationHelper", "Paginat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj", "{6CF6A211-8220-4843-80CA-D5D9DD6AC555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertInArrays", "Arrays\InsertInArrays.csproj", "{9211BF13-8FCB-445A-BD41-45EEC8DDB072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertInArrays", "Arrays\InsertInArrays.csproj", "{9211BF13-8FCB-445A-BD41-45EEC8DDB072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeArray", "MergeArray\MergeArray.csproj", "{2E051A9A-8321-4E08-B147-A2B0A328456B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{9211BF13-8FCB-445A-BD41-45EEC8DDB072}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9211BF13-8FCB-445A-BD41-45EEC8DDB072}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9211BF13-8FCB-445A-BD41-45EEC8DDB072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E051A9A-8321-4E08-B147-A2B0A328456B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E051A9A-8321-4E08-B147-A2B0A328456B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E051A9A-8321-4E08-B147-A2B0A328456B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E051A9A-8321-4E08-B147-A2B0A328456B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
