@@ -8,9 +8,9 @@ To accommodate this, nums1 has a length of m + n, where the first m elements den
 and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
  */
 
-var result = Merge([1] , 1 , [] , 0);
+var result = Merge([1,2,3,0,0,0] , 3 , [2,4,5] , 3);
 
-var result2 = Merge2([1], 1, [], 0);
+var result2 = Merge2([1, 2, 3, 0, 0, 0], 3, [2, 4, 5], 3);
 
 int[] Merge(int[] nums1, int m, int[] nums2, int n)
 {
@@ -54,9 +54,9 @@ int[] Merge(int[] nums1, int m, int[] nums2, int n)
 
 int[] Merge2(int[] nums1, int m, int[] nums2, int n)
 {
-    int i = m - 1; // آخرین عنصر معتبر در nums1
-    int j = n - 1; // آخرین عنصر در nums2
-    int k = m + n - 1; // آخرین جای nums1
+    int i = m - 1; 
+    int j = n - 1;
+    int k = m + n - 1;
 
     while (i >= 0 && j >= 0)
     {
@@ -73,7 +73,6 @@ int[] Merge2(int[] nums1, int m, int[] nums2, int n)
         k--;
     }
 
-    // اگر nums2 هنوز باقی مونده باشه
     while (j >= 0)
     {
         nums1[k] = nums2[j];
