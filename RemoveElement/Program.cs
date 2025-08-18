@@ -8,13 +8,20 @@ The remaining elements of nums are not important as well as the size of nums.
 Return k.
  */
 
-var result = RemoveElement2([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]);
-Console.WriteLine(result);
+var result1 = RemoveElement([1, 1, 2] , 1);
+Console.WriteLine(result1);
+
+var result2 = RemoveElement2([1, 1, 2]);
+Console.WriteLine(result2);
+
+var result3 = MoveZeroes([7, 0, 0, 0]);
+Console.WriteLine(result3);
+
 Console.ReadLine();
 
 int RemoveElement(int[] nums, int val)
 {
-    int length = nums.Length - 1 ;
+    int length = nums.Length - 1;
     int i = 0;
 
     while (i <= length)
@@ -38,39 +45,69 @@ int RemoveElement(int[] nums, int val)
             i++;
         }
     }
-    
+
 
     return length + 1;
 }
 
 /* مثال 2 :
-توضیح:
 بهت یه آرایه‌ی مرتب ‌شده از اعداد صحیح داده میشه. باید همه‌ی تکراری‌ها رو حذف کنی، طوری که هر عنصر فقط یکبار بیاد.
 حذف هم باید in-place انجام بشه.
 باید برگردونی k = تعداد عناصر یکتا.
-و آرایه طوری تغییر کنه که nums[0..k-1] شامل اون عناصر یکتا باشه. */
+و آرایه طوری تغییر کنه که nums[0..k-1] شامل اون عناصر یکتا باشه.
+آرایه اولیه سورت شده است و آرایه نهایی شامل k عنصر اول هم باید سورت شده باشد*/
 
 int RemoveElement2(int[] nums)
 {
-    int i = 0;
-    int length = nums.Length - 1;
-    var element = nums[i];
-    i++;
+    int i = 1;
+    int writeIndex = 0;
 
-    for(int k = i; k <= nums.Length - 1 ; k++)
+    while (i <= nums.Length - 1)
     {
-        while (nums[k] == element)
+        if(nums[i] != nums[writeIndex])
         {
-            while (nums[length] == nums[i])
-            {
-                length--;
-            }
-
-            nums[k] = nums[length];
-            nums[length] = element;
-            element = nums[k];
+            writeIndex++;
+            nums[writeIndex] = nums[i];
         }
+        i++;
     }
 
-    return length;
+    return nums.Length > 0 ? writeIndex + 1 : 0;
+}
+
+// این الگوریتم با two pointer حل میشه
+
+
+/*
+Move Zeroes / حذف و جابه‌جایی صفرها
+
+یه آرایه nums داده شده، شامل اعداد صحیح.
+باید همه‌ی صفرها رو به انتهای آرایه منتقل کنی، ولی ترتیب بقیه‌ی عناصر حفظ بشه.
+باید in-place باشه و از آرایه اضافی استفاده نکنی.
+در نهایت فقط آرایه تغییر می‌کنه، خروجی هم آرایه تغییر یافته هست.
+
+ */
+
+int[] MoveZeroes(int[] nums)
+{
+    int i = 0;
+    int writeIndex = 0;
+
+    while (i <= nums.Length - 1)
+    {
+        if (nums[i] != 0)
+        {
+            nums[writeIndex] = nums[i];
+            writeIndex++;
+        }
+
+        i++;
+    }
+
+    for(int j = writeIndex; j <= nums.Length - 1; j++)
+    {
+        nums[j] = 0;
+    }
+
+    return nums;
 }
