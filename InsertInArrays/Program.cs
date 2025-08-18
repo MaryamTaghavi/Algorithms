@@ -38,7 +38,7 @@ public static class Solution
             else
             {
                 temporaryArray[temporaryLength] = arr[i];
-                if(temporaryLength + 1 == arr.Length)
+                if (temporaryLength + 1 == arr.Length)
                 {
                     break;
                 }

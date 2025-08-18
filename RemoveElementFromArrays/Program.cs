@@ -1,4 +1,4 @@
-﻿// LeetCode : https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
+﻿﻿// LeetCode : https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
 
 /* Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. 
  * The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
@@ -8,7 +8,7 @@ The remaining elements of nums are not important as well as the size of nums.
 Return k.
  */
 
-var result1 = RemoveElement([1, 1, 2] , 1);
+var result1 = RemoveElement([1, 1, 2], 1);
 Console.WriteLine(result1);
 
 var result2 = RemoveElement2([1, 1, 2]);
@@ -64,7 +64,7 @@ int RemoveElement2(int[] nums)
 
     while (i <= nums.Length - 1)
     {
-        if(nums[i] != nums[writeIndex])
+        if (nums[i] != nums[writeIndex])
         {
             writeIndex++;
             nums[writeIndex] = nums[i];
@@ -104,7 +104,7 @@ int[] MoveZeroes(int[] nums)
         i++;
     }
 
-    for(int j = writeIndex; j <= nums.Length - 1; j++)
+    for (int j = writeIndex; j <= nums.Length - 1; j++)
     {
         nums[j] = 0;
     }
