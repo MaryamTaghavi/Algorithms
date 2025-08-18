@@ -1,4 +1,4 @@
-﻿﻿// LeetCode : https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
+﻿// LeetCode : https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
 
 /* Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. 
  * The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
