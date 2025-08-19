@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingZerosToTheEnd", "Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingInArray", "Arrays\SearchingInArray\SearchingInArray.csproj", "{196D2DAF-C986-41E0-B497-BA67CD9C7FC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidMountainArray", "Arrays\ValidMountainArray\ValidMountainArray.csproj", "{98423CCD-2E08-4B76-AA90-5956F18E06B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{196D2DAF-C986-41E0-B497-BA67CD9C7FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196D2DAF-C986-41E0-B497-BA67CD9C7FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196D2DAF-C986-41E0-B497-BA67CD9C7FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98423CCD-2E08-4B76-AA90-5956F18E06B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98423CCD-2E08-4B76-AA90-5956F18E06B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98423CCD-2E08-4B76-AA90-5956F18E06B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98423CCD-2E08-4B76-AA90-5956F18E06B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{AFD3E759-A31A-4127-93DA-B945B54157EC} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{853F6D4C-EB54-4F4D-A119-63BE12074B9A} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{196D2DAF-C986-41E0-B497-BA67CD9C7FC2} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
+		{98423CCD-2E08-4B76-AA90-5956F18E06B5} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
