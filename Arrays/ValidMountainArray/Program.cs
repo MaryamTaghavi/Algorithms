@@ -11,19 +11,18 @@ arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
 
  */
 
-var result = ValidMountainArray([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]);
+var result = ValidMountainArray([1,2,3,4,5,6,7,8]);
 Console.WriteLine(result);
 Console.ReadLine();
 
 bool ValidMountainArray(int[] arr)
 {
-    var counter = false;
     var length = arr.Length - 1;
     var i = 0;
 
     if (arr.Length < 3)
     {
-        return counter;
+        return false;
     }
 
     while (i < length && arr[i + 1] > arr[i])
@@ -31,20 +30,16 @@ bool ValidMountainArray(int[] arr)
         i++;
     }
 
-    while (i < length && i > 0)
+    if (i == length || i == 0)
     {
-        if (arr[i + 1] >= arr[i])
-        {
-            counter = false;
-            break;
-        }
-        else
-        {
-            counter = true;
-        }
+        return false;
+    }
 
+
+    while (i < length && arr[i + 1] < arr[i])
+    {      
         i++;
     }
 
-    return counter;
+    return  i == length;
 }
