@@ -20,20 +20,20 @@ int MinFlips(string s)
     if (s[0] != s[s.Length - 1])
     {
         var firstChar = s[0];
-        s = s.Remove(0,1);
+        s = s.Remove(0, 1);
         s += firstChar;
     }
 
     char[] chars = s.ToCharArray();
 
-    for(int i = 1; i< chars.Length - 2; i++)
+    for (int i = 1; i < chars.Length - 2; i++)
     {
-        if (chars[i] != chars[i + 1] && chars[i-1] != chars[i])
+        if (chars[i] != chars[i + 1] && chars[i - 1] != chars[i])
         {
             continue;
         }
 
-        if(chars[i] == '0')
+        if (chars[i] == '0')
         {
             chars[i + 1] = chars[i - 1] = '1';
             num++;
@@ -46,5 +46,5 @@ int MinFlips(string s)
     }
 
     string str = string.Concat(chars);
-    return num ;
+    return num;
 }
