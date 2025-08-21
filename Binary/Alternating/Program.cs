@@ -4,47 +4,51 @@
 // هدف ساختن رشته 010101 یا 101010 است
 // Minimum Flips to Make a Binary String Alternating
 
-var result = MinFlips("1110");
+
+/* برای جابجایی کرکتر اول به آخر باید از الگوریتم
+sliding window استفاده کنیم
+دو رشته را بهم میچسبانیم و بر اساس طول رشته اصلی یکی یکی میایم جلو و با الگوی اصلی که 0101 یا 1010 مقایسه میکنیم
+*/
+var result = MinFlips("11010");
 Console.WriteLine(result);
 Console.ReadLine();
 
 int MinFlips(string s)
 {
-    var num = 0;
+    int n = s.Length;
+    int diff1 = 0; // برای "0101..."
+    int diff2 = 0; // برای "1010..."
+    var minOps = int.MaxValue;
+    // Sliding Window
+    var sliding = s + s;
 
-    if (s.Length == 0)
+    for (int i = 0; i < sliding.Length; i++)
     {
-        return num;
-    }
+        // حالت 0101...
+        if (sliding[i] != (i % 2 == 0 ? '0' : '1'))
+            diff1++;
 
-    if (s[0] != s[s.Length - 1])
-    {
-        var firstChar = s[0];
-        s = s.Remove(0, 1);
-        s += firstChar;
-    }
+        // حالت 1010...
+        if (sliding[i] != (i % 2 == 0 ? '1' : '0'))
+            diff2++;
 
-    char[] chars = s.ToCharArray();
-
-    for (int i = 1; i < chars.Length - 2; i++)
-    {
-        if (chars[i] != chars[i + 1] && chars[i - 1] != chars[i])
+        if (i >= n)
         {
-            continue;
+            int j = i - n;
+            char oldExpected1 = (j % 2 == 0) ? '0' : '1';
+            char oldExpected2 = (j % 2 == 0) ? '1' : '0';
+
+            if (sliding[j] != oldExpected1) diff1--;
+            if (sliding[j] != oldExpected2) diff2--;
         }
 
-        if (chars[i] == '0')
+        if (i >= n - 1)
         {
-            chars[i + 1] = chars[i - 1] = '1';
-            num++;
-        }
-        else
-        {
-            chars[i + 1] = chars[i - 1] = '0';
-            num++;
+            minOps = Math.Min(minOps, Math.Min(diff1, diff2));
         }
     }
 
-    string str = string.Concat(chars);
-    return num;
+
+
+    return minOps;
 }
