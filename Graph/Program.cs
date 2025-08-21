@@ -1,4 +1,25 @@
-﻿var graph = new Dictionary<string, List<string>>
+﻿/*
+ # توضیح گراف و پیاده سازی دو گراف DFS و BFS
+
+## گراف چیست ؟ گراف شامل یک تعداد گره (node) و لبه (edge) است.
+## A -> B     A , B node  و خطوط لبه هستند.
+
+## DFS => جستجوری عمقی     
+A → B → D
+ \      
+  → C
+## یعنی ابتدا به مسیر A,B,D میرود و وقتی به انتها رسید برمیگردد و مسیر A,C را طی میکند.
+
+## BFS => جستجوی سطحی
+A → B → D
+ \      
+  → C
+## ابتدا همسایه ها را برسی میکند و بعد ادامه مسیر یعنی A,B,C,D (B,C در یک سطح هستند)
+ */
+
+
+
+var graph = new Dictionary<string, List<string>>
 {
     { "A", new List<string> { "B", "C" } },
     { "B", new List<string> { "D" } },
