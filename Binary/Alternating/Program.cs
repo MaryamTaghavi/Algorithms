@@ -1,15 +1,15 @@
-﻿/* LeetCode : https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/
- */
+﻿// LeetCode : https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/
 
 // هدف ساختن رشته 010101 یا 101010 است
-// Minimum Flips to Make a Binary String Alternating
+// Minimum Flips to Make a Binary String Alternating (متناوب)
 
 
-/* برای جابجایی کرکتر اول به آخر باید از الگوریتم
+/* برای جابجایی کرکتر حذف از اول و انتقال به آخر باید از الگوریتم
 sliding window استفاده کنیم
-دو رشته را بهم میچسبانیم و بر اساس طول رشته اصلی یکی یکی میایم جلو و با الگوی اصلی که 0101 یا 1010 مقایسه میکنیم
+دو رشته را بهم میچسبانیم و بر اساس طول رشته اصلی یکی یکی میایم جلو
+و با الگوی اصلی که 0101 یا 1010 مقایسه میکنیم
 */
-var result = MinFlips("11010");
+var result = MinFlips("1000110010100000010");
 Console.WriteLine(result);
 Console.ReadLine();
 
@@ -19,6 +19,7 @@ int MinFlips(string s)
     int diff1 = 0; // برای "0101..."
     int diff2 = 0; // برای "1010..."
     var minOps = int.MaxValue;
+
     // Sliding Window
     var sliding = s + s;
 
@@ -47,8 +48,6 @@ int MinFlips(string s)
             minOps = Math.Min(minOps, Math.Min(diff1, diff2));
         }
     }
-
-
 
     return minOps;
 }
