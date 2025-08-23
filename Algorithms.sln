@@ -57,6 +57,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alternating", "Binary\Alter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{10AFED65-9B70-40F1-9E74-169FA6A54E29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainMeanings", "MainMeanings", "{76E334AD-CA5E-48C1-8436-9D7725B733EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDataTypes", "MainMeanings\AbstractDataTypes\AbstractDataTypes.csproj", "{2145FC4E-F64D-4F97-869C-00A5ADA6D364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,10 @@ Global
 		{0D0CF4EE-AD22-40C1-AF67-482BC36728E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0CF4EE-AD22-40C1-AF67-482BC36728E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D0CF4EE-AD22-40C1-AF67-482BC36728E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2145FC4E-F64D-4F97-869C-00A5ADA6D364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2145FC4E-F64D-4F97-869C-00A5ADA6D364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2145FC4E-F64D-4F97-869C-00A5ADA6D364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2145FC4E-F64D-4F97-869C-00A5ADA6D364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +182,7 @@ Global
 		{E870BCFC-A928-4069-AA13-39FA6F51DF16} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{DDA8D376-DE26-4CDD-8279-E3A4BF7044BC} = {C013973C-7C21-43C0-A538-F9CD59C56D47}
 		{0D0CF4EE-AD22-40C1-AF67-482BC36728E7} = {C013973C-7C21-43C0-A538-F9CD59C56D47}
+		{2145FC4E-F64D-4F97-869C-00A5ADA6D364} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
