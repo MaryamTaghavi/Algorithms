@@ -14,4 +14,12 @@ Next – a reference/pointer to the next node (or null if it’s the last node).
 
 [Data | Next] -> [Data | Next] -> [Data | Next] -> null
 
- */
+inserting in on => O(1)
+
+*/
+
+class LinkedList
+{
+    int Date;
+    LinkedList Next;
+}
