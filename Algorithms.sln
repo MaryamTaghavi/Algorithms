@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDataTypes", "MainMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeComplexity", "MainMeanings\TimeComplexity\TimeComplexity.csproj", "{454C338F-D004-446F-9131-6280E542426E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroesInPlace", "Arrays\MoveZeroesInPlace\MoveZeroesInPlace.csproj", "{DE039C53-5645-439C-8A17-5C1B13118238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +175,10 @@ Global
 		{454C338F-D004-446F-9131-6280E542426E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{454C338F-D004-446F-9131-6280E542426E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{454C338F-D004-446F-9131-6280E542426E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE039C53-5645-439C-8A17-5C1B13118238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE039C53-5645-439C-8A17-5C1B13118238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE039C53-5645-439C-8A17-5C1B13118238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE039C53-5645-439C-8A17-5C1B13118238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +196,7 @@ Global
 		{0D0CF4EE-AD22-40C1-AF67-482BC36728E7} = {C013973C-7C21-43C0-A538-F9CD59C56D47}
 		{2145FC4E-F64D-4F97-869C-00A5ADA6D364} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 		{454C338F-D004-446F-9131-6280E542426E} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
+		{DE039C53-5645-439C-8A17-5C1B13118238} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
