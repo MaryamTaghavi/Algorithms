@@ -65,9 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeComplexity", "MainMeani
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroesInPlace", "Arrays\MoveZeroesInPlace\MoveZeroesInPlace.csproj", "{DE039C53-5645-439C-8A17-5C1B13118238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArraysByParity", "Arrays\SortArraysByParity\SortArraysByParity.csproj", "{F16348C0-0D2A-4E67-AB68-345DE629BFFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortArraysByParity", "Arrays\SortArraysByParity\SortArraysByParity.csproj", "{F16348C0-0D2A-4E67-AB68-345DE629BFFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "MainMeanings\LinkedList\LinkedList.csproj", "{285DF077-ECE8-4D5C-B064-F21239186831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "MainMeanings\LinkedList\LinkedList.csproj", "{285DF077-ECE8-4D5C-B064-F21239186831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightChecker", "Arrays\HeightChecker\HeightChecker.csproj", "{571013ED-90B5-489E-A60A-C775EA5A4EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,10 @@ Global
 		{285DF077-ECE8-4D5C-B064-F21239186831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285DF077-ECE8-4D5C-B064-F21239186831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{285DF077-ECE8-4D5C-B064-F21239186831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571013ED-90B5-489E-A60A-C775EA5A4EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571013ED-90B5-489E-A60A-C775EA5A4EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571013ED-90B5-489E-A60A-C775EA5A4EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571013ED-90B5-489E-A60A-C775EA5A4EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +217,7 @@ Global
 		{DE039C53-5645-439C-8A17-5C1B13118238} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{F16348C0-0D2A-4E67-AB68-345DE629BFFE} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{285DF077-ECE8-4D5C-B064-F21239186831} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
+		{571013ED-90B5-489E-A60A-C775EA5A4EDD} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
