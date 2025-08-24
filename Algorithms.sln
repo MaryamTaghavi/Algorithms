@@ -59,11 +59,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{10AFED65
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainMeanings", "MainMeanings", "{76E334AD-CA5E-48C1-8436-9D7725B733EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDataTypes", "MainMeanings\AbstractDataTypes\AbstractDataTypes.csproj", "{2145FC4E-F64D-4F97-869C-00A5ADA6D364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractDataTypes", "MainMeanings\AbstractDataTypes\AbstractDataTypes.csproj", "{2145FC4E-F64D-4F97-869C-00A5ADA6D364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeComplexity", "MainMeanings\TimeComplexity\TimeComplexity.csproj", "{454C338F-D004-446F-9131-6280E542426E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeComplexity", "MainMeanings\TimeComplexity\TimeComplexity.csproj", "{454C338F-D004-446F-9131-6280E542426E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroesInPlace", "Arrays\MoveZeroesInPlace\MoveZeroesInPlace.csproj", "{DE039C53-5645-439C-8A17-5C1B13118238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroesInPlace", "Arrays\MoveZeroesInPlace\MoveZeroesInPlace.csproj", "{DE039C53-5645-439C-8A17-5C1B13118238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArraysByParity", "Arrays\SortArraysByParity\SortArraysByParity.csproj", "{F16348C0-0D2A-4E67-AB68-345DE629BFFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +181,10 @@ Global
 		{DE039C53-5645-439C-8A17-5C1B13118238}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE039C53-5645-439C-8A17-5C1B13118238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE039C53-5645-439C-8A17-5C1B13118238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16348C0-0D2A-4E67-AB68-345DE629BFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16348C0-0D2A-4E67-AB68-345DE629BFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16348C0-0D2A-4E67-AB68-345DE629BFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16348C0-0D2A-4E67-AB68-345DE629BFFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +203,7 @@ Global
 		{2145FC4E-F64D-4F97-869C-00A5ADA6D364} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 		{454C338F-D004-446F-9131-6280E542426E} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 		{DE039C53-5645-439C-8A17-5C1B13118238} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
+		{F16348C0-0D2A-4E67-AB68-345DE629BFFE} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
