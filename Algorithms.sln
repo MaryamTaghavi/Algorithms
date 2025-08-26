@@ -77,6 +77,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "SortingArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "MainMeanings\Stack\Stack.csproj", "{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{1C600227-CBF4-4D54-A5CF-08EB87AC6648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "Stack\ValidParentheses\ValidParentheses.csproj", "{4E3315B6-11A5-4FDA-A3CB-D4332E092256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +215,10 @@ Global
 		{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3315B6-11A5-4FDA-A3CB-D4332E092256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3315B6-11A5-4FDA-A3CB-D4332E092256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3315B6-11A5-4FDA-A3CB-D4332E092256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3315B6-11A5-4FDA-A3CB-D4332E092256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -234,6 +242,7 @@ Global
 		{571013ED-90B5-489E-A60A-C775EA5A4EDD} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{0B3F422C-4A9D-420D-ADEE-7CD50959E2CE} = {4E9C0014-1AFC-4A2E-B6F5-822568E79F35}
 		{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
+		{4E3315B6-11A5-4FDA-A3CB-D4332E092256} = {1C600227-CBF4-4D54-A5CF-08EB87AC6648}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
