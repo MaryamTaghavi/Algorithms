@@ -1,5 +1,9 @@
 ﻿// Leetcode : https://leetcode.com/problems/daily-temperatures/description/
 
+
+// کامل نیست
+
+
 /*
 Given an array of integers temperatures represents the daily temperatures, 
 return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. 
@@ -15,22 +19,23 @@ static int[] DailyTemperatures(int[] temperatures)
     Stack<int> stack = new Stack<int>();
     int[] result = new int[temperatures.Length];
 
-    if(temperatures.Count() > 0)
+    if (temperatures.Count() > 0)
     {
         stack.Push(temperatures[0]);
     }
-    for(int i = 0; i < temperatures.Length; i++)
+    for (int i = 0; i < temperatures.Length; i++)
     {
-        if (temperatures[i+1] > temperatures[i])
+        if (temperatures[i + 1] > temperatures[i])
         {
-            if (stack.Count > 0)
+            result[i] = i;
+            var peek = stack.Peek();
+
+            while(stack.Count > 0)
             {
-                var pop = stack.Pop();
-                result[i] = i - pop;
-            }
-            else
-            {
-                result[i] = i;
+                if(temperatures[i + 1] > peek)
+                {
+                    result[peek] = 
+                }
             }
         }
 

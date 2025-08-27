@@ -75,13 +75,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortingArray", "SortingArra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "SortingArray\BubbleSort\BubbleSort.csproj", "{0B3F422C-4A9D-420D-ADEE-7CD50959E2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "MainMeanings\Stack\Stack.csproj", "{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "MainMeanings\Stack\Stack.csproj", "{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{1C600227-CBF4-4D54-A5CF-08EB87AC6648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "Stack\ValidParentheses\ValidParentheses.csproj", "{4E3315B6-11A5-4FDA-A3CB-D4332E092256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "Stack\ValidParentheses\ValidParentheses.csproj", "{4E3315B6-11A5-4FDA-A3CB-D4332E092256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyTemperatures", "Stack\DailyTemperatures\DailyTemperatures.csproj", "{647056AB-A33D-4D57-864F-9380BC605B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyTemperatures", "Stack\DailyTemperatures\DailyTemperatures.csproj", "{647056AB-A33D-4D57-864F-9380BC605B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMissingPositive", "Arrays\FirstMissingPositive\FirstMissingPositive.csproj", "{F7C73407-7153-45F2-BE6D-3A07AC560B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{647056AB-A33D-4D57-864F-9380BC605B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647056AB-A33D-4D57-864F-9380BC605B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647056AB-A33D-4D57-864F-9380BC605B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C73407-7153-45F2-BE6D-3A07AC560B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C73407-7153-45F2-BE6D-3A07AC560B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C73407-7153-45F2-BE6D-3A07AC560B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C73407-7153-45F2-BE6D-3A07AC560B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,6 +256,7 @@ Global
 		{5C5D3557-FA1D-4ADE-AD67-2B68C63377D1} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 		{4E3315B6-11A5-4FDA-A3CB-D4332E092256} = {1C600227-CBF4-4D54-A5CF-08EB87AC6648}
 		{647056AB-A33D-4D57-864F-9380BC605B86} = {1C600227-CBF4-4D54-A5CF-08EB87AC6648}
+		{F7C73407-7153-45F2-BE6D-3A07AC560B5F} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
