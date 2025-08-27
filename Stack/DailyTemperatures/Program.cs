@@ -34,7 +34,7 @@ static int[] DailyTemperatures(int[] temperatures)
             {
                 if(temperatures[i + 1] > peek)
                 {
-                    result[peek] = 
+                 //   result[peek] = 
                 }
             }
         }
