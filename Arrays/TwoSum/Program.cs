@@ -1,6 +1,6 @@
 ﻿// LeetCode : https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=array
 
-// hashset ایندکس نداره و فقط برای نگهداری دیتا استفاده میشود
+// HashSet ایندکس نداره و فقط برای نگهداری دیتا استفاده میشود
 // چون هم میخوایم دیتا و هم ایندکس را نگه داریم از دیکشنری استفاده میکنیم
 var result = TwoSum([2, 7, 11, 15], 9);
 Console.ReadLine();
