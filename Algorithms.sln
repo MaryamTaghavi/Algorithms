@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "MainMeanings\Queue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfRecentCalls", "Queue\NumberOfRecentCalls\NumberOfRecentCalls.csproj", "{4B588080-4D21-4A06-8D38-ED10FDA1A761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "Arrays\TwoSum\TwoSum.csproj", "{A9A5AD0B-800F-4939-8D72-E7F59C98524F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -245,6 +247,10 @@ Global
 		{4B588080-4D21-4A06-8D38-ED10FDA1A761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B588080-4D21-4A06-8D38-ED10FDA1A761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B588080-4D21-4A06-8D38-ED10FDA1A761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A5AD0B-800F-4939-8D72-E7F59C98524F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A5AD0B-800F-4939-8D72-E7F59C98524F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A5AD0B-800F-4939-8D72-E7F59C98524F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A5AD0B-800F-4939-8D72-E7F59C98524F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -273,6 +279,7 @@ Global
 		{F7C73407-7153-45F2-BE6D-3A07AC560B5F} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{F2D18DBB-8F4D-4366-B87D-DE2003A447E2} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 		{4B588080-4D21-4A06-8D38-ED10FDA1A761} = {74A1EEA3-514F-49E5-B912-FBE423255F02}
+		{A9A5AD0B-800F-4939-8D72-E7F59C98524F} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
