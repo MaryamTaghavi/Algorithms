@@ -33,7 +33,6 @@ bool HasCycle(ListNode head)
     }
 
 
-
     return false;
 }
 
