@@ -1,6 +1,14 @@
 ﻿
+
+ReverseList(new ListNode()
+{
+    next = new ListNode(),
+    val = 2
+});
+
 ListNode ReverseList(ListNode head)
 {
+    
     return null;
 }
 

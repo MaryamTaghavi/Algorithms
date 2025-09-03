@@ -93,7 +93,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfRecentCalls", "Queu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "Arrays\TwoSum\TwoSum.csproj", "{A9A5AD0B-800F-4939-8D72-E7F59C98524F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecerseLinkedList", "LinkedList\RecerseLinkedList\RecerseLinkedList.csproj", "{128A381C-125A-43FA-9855-2A381B36771C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "LinkedList\RecerseLinkedList\ReverseLinkedList.csproj", "{128A381C-125A-43FA-9855-2A381B36771C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
