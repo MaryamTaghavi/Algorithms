@@ -93,11 +93,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfRecentCalls", "Queu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "Arrays\TwoSum\TwoSum.csproj", "{A9A5AD0B-800F-4939-8D72-E7F59C98524F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "LinkedList\RecerseLinkedList\ReverseLinkedList.csproj", "{128A381C-125A-43FA-9855-2A381B36771C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList", "LinkedList\RecerseLinkedList\ReverseLinkedList.csproj", "{128A381C-125A-43FA-9855-2A381B36771C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList2", "LinkedList\ReverseLinkedList2\ReverseLinkedList2.csproj", "{F0E63BBA-95C7-44CA-B945-531E43405DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList2", "LinkedList\ReverseLinkedList2\ReverseLinkedList2.csproj", "{F0E63BBA-95C7-44CA-B945-531E43405DAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{629961D5-3356-467E-8234-84401994B41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCycle", "LinkedList\LinkedListCycle\LinkedListCycle.csproj", "{AE8DE925-5794-413F-86DB-6E96991671AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -265,6 +267,10 @@ Global
 		{F0E63BBA-95C7-44CA-B945-531E43405DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0E63BBA-95C7-44CA-B945-531E43405DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0E63BBA-95C7-44CA-B945-531E43405DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8DE925-5794-413F-86DB-6E96991671AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8DE925-5794-413F-86DB-6E96991671AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8DE925-5794-413F-86DB-6E96991671AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8DE925-5794-413F-86DB-6E96991671AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -296,6 +302,7 @@ Global
 		{A9A5AD0B-800F-4939-8D72-E7F59C98524F} = {E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}
 		{128A381C-125A-43FA-9855-2A381B36771C} = {629961D5-3356-467E-8234-84401994B41B}
 		{F0E63BBA-95C7-44CA-B945-531E43405DAC} = {629961D5-3356-467E-8234-84401994B41B}
+		{AE8DE925-5794-413F-86DB-6E96991671AB} = {629961D5-3356-467E-8234-84401994B41B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
