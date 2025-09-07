@@ -1,4 +1,4 @@
-﻿// Leetcode : https://leetcode.com/problems/daily-temperatures/description/
+﻿// LeetCode : https://leetcode.com/problems/daily-temperatures/description/
 
 
 // کامل نیست
@@ -11,7 +11,7 @@ If there is no future day for which this is possible, keep answer[i] == 0 instea
  */
 
 // Stack نگه می‌داره اندیس روزهایی که هنوز جوابشون پیدا نشده.
-var result = DailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]);
+var result = DailyTemperatures([30, 60, 90]);
 Console.ReadLine();
 
 static int[] DailyTemperatures(int[] temperatures)
@@ -19,30 +19,22 @@ static int[] DailyTemperatures(int[] temperatures)
     Stack<int> stack = new Stack<int>();
     int[] result = new int[temperatures.Length];
 
-    if (temperatures.Count() > 0)
+    for (int i = 0; i < temperatures.Length ; i++)
     {
-        stack.Push(temperatures[0]);
-    }
-    for (int i = 0; i < temperatures.Length; i++)
-    {
-        if (temperatures[i + 1] > temperatures[i])
-        {
-            result[i] = i;
-            var peek = stack.Peek();
+        var j = stack.Count();
 
-            while(stack.Count > 0)
+        while (j > 0)
+        {
+            var peek = stack.Peek();
+            j--;
+            if (temperatures[i] > temperatures[peek])
             {
-                if(temperatures[i + 1] > peek)
-                {
-                 //   result[peek] = 
-                }
+                result[peek] = i - peek;
+                stack.Pop();
             }
         }
 
-        else
-        {
-            stack.Push(temperatures[i]);
-        }
+        stack.Push(i);
     }
 
     return result;
