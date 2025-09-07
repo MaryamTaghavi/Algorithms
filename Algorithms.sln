@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList2", "Linke
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{629961D5-3356-467E-8234-84401994B41B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCycle", "LinkedList\LinkedListCycle\LinkedListCycle.csproj", "{AE8DE925-5794-413F-86DB-6E96991671AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListCycle", "LinkedList\LinkedListCycle\LinkedListCycle.csproj", "{AE8DE925-5794-413F-86DB-6E96991671AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateReversePolishNotation", "Stack\EvaluateReversePolishNotation\EvaluateReversePolishNotation.csproj", "{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +273,10 @@ Global
 		{AE8DE925-5794-413F-86DB-6E96991671AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE8DE925-5794-413F-86DB-6E96991671AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE8DE925-5794-413F-86DB-6E96991671AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +309,7 @@ Global
 		{128A381C-125A-43FA-9855-2A381B36771C} = {629961D5-3356-467E-8234-84401994B41B}
 		{F0E63BBA-95C7-44CA-B945-531E43405DAC} = {629961D5-3356-467E-8234-84401994B41B}
 		{AE8DE925-5794-413F-86DB-6E96991671AB} = {629961D5-3356-467E-8234-84401994B41B}
+		{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C} = {1C600227-CBF4-4D54-A5CF-08EB87AC6648}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
