@@ -107,8 +107,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStackUsingQueues",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashTable", "HashTable", "{E3CA1010-515B-4B57-87B4-AFB361FE05E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSExample", "SMSExample\SMSExample.csproj", "{17418984-BECF-4F67-9AF5-782C7D8C552B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -287,10 +285,6 @@ Global
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
