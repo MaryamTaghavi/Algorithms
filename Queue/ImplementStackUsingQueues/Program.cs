@@ -6,7 +6,7 @@ myStack.Push(1);
 myStack.Push(2);
 myStack.Push(3);
 
-myStack.Top(); // return 3
+myStack.Peek(); // return 3
 myStack.Pop(); // return 3
 myStack.Empty(); // return False
 
@@ -39,8 +39,9 @@ public class MyStack
         return queue1.Dequeue();
     }
 
-    public int Top()
+    public int Peek()
     {
+        // فقط عنصر برداشته میشه و دیده میشه ولی در واقع حذف نمیشه برمیداریم میبینیم و میذاریم سر جاش
         var top = queue1.Dequeue();
 
         Push(top);
