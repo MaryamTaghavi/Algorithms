@@ -101,9 +101,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListCycle", "LinkedList\LinkedListCycle\LinkedListCycle.csproj", "{AE8DE925-5794-413F-86DB-6E96991671AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateReversePolishNotation", "Stack\EvaluateReversePolishNotation\EvaluateReversePolishNotation.csproj", "{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluateReversePolishNotation", "Stack\EvaluateReversePolishNotation\EvaluateReversePolishNotation.csproj", "{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementStackUsingQueues", "Queue\ImplementStackUsingQueues\ImplementStackUsingQueues.csproj", "{AD683830-9D15-425D-8428-62B1DD4853E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStackUsingQueues", "Queue\ImplementStackUsingQueues\ImplementStackUsingQueues.csproj", "{AD683830-9D15-425D-8428-62B1DD4853E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashTable", "HashTable", "{E3CA1010-515B-4B57-87B4-AFB361FE05E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSExample", "SMSExample\SMSExample.csproj", "{17418984-BECF-4F67-9AF5-782C7D8C552B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -283,6 +287,10 @@ Global
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17418984-BECF-4F67-9AF5-782C7D8C552B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
