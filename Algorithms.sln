@@ -109,6 +109,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashTable", "HashTable", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "HashTable\TwoSum\TwoSum.csproj", "{0E8B1677-8EA9-4C48-AFF3-A2D382FA05F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "HashTable\ValidAnagram\ValidAnagram.csproj", "{390D025E-3AAE-4C59-85B0-8DD725E8C2E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +293,10 @@ Global
 		{0E8B1677-8EA9-4C48-AFF3-A2D382FA05F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E8B1677-8EA9-4C48-AFF3-A2D382FA05F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E8B1677-8EA9-4C48-AFF3-A2D382FA05F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390D025E-3AAE-4C59-85B0-8DD725E8C2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390D025E-3AAE-4C59-85B0-8DD725E8C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390D025E-3AAE-4C59-85B0-8DD725E8C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390D025E-3AAE-4C59-85B0-8DD725E8C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -326,6 +332,7 @@ Global
 		{AD683830-9D15-425D-8428-62B1DD4853E0} = {74A1EEA3-514F-49E5-B912-FBE423255F02}
 		{6B34CBD4-CA17-4755-B630-01195EC5F42C} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 		{0E8B1677-8EA9-4C48-AFF3-A2D382FA05F1} = {B55811A5-C676-4FAC-8B10-FBB20DE2E772}
+		{390D025E-3AAE-4C59-85B0-8DD725E8C2E5} = {B55811A5-C676-4FAC-8B10-FBB20DE2E772}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
