@@ -107,6 +107,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStackUsingQueues",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashTable", "HashTable", "{E3CA1010-515B-4B57-87B4-AFB361FE05E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "MainMeanings\HashTable\HashTable.csproj", "{6B34CBD4-CA17-4755-B630-01195EC5F42C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD683830-9D15-425D-8428-62B1DD4853E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B34CBD4-CA17-4755-B630-01195EC5F42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B34CBD4-CA17-4755-B630-01195EC5F42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B34CBD4-CA17-4755-B630-01195EC5F42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B34CBD4-CA17-4755-B630-01195EC5F42C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -319,6 +325,7 @@ Global
 		{AE8DE925-5794-413F-86DB-6E96991671AB} = {629961D5-3356-467E-8234-84401994B41B}
 		{2EE7FF3D-357E-4BBA-80A9-C73E65E7FE5C} = {1C600227-CBF4-4D54-A5CF-08EB87AC6648}
 		{AD683830-9D15-425D-8428-62B1DD4853E0} = {74A1EEA3-514F-49E5-B912-FBE423255F02}
+		{6B34CBD4-CA17-4755-B630-01195EC5F42C} = {76E334AD-CA5E-48C1-8436-9D7725B733EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
