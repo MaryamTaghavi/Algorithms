@@ -24,9 +24,34 @@ Inorder Traversal (چپ → ریشه → راست)
 
 */
 
+TreeNode root = new TreeNode();
+root.val = 1;
+root.left = null;
+root.right = new TreeNode() { val = 2 , left = new TreeNode() { val = 3} };
+
+var result= InorderTraversal(root);
+Console.ReadLine();
+
 IList<int> InorderTraversal(TreeNode root)
 {
-    return null;
+    List<int> result = new List<int>();
+    Inorder(root, result);
+    return result;
+}
+
+void Inorder(TreeNode node, List<int> result)
+{
+    if (node == null)
+        return;
+
+    // اول چپ
+    Inorder(node.left, result);
+
+    // بعد ریشه
+    result.Add(node.val);
+
+    // بعد راست
+    Inorder(node.right, result);
 }
 
 // Definition for a binary tree node.
