@@ -113,6 +113,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidAnagram", "HashTable\V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "MainMeanings\Tree\Tree.csproj", "{E330BCB2-C551-473F-84F6-F20ABD85A9CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeInorderTraversal", "Tree\BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.csproj", "{19A5F2B2-E71B-4F04-A31F-AA3ED9CDE3AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{E330BCB2-C551-473F-84F6-F20ABD85A9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E330BCB2-C551-473F-84F6-F20ABD85A9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E330BCB2-C551-473F-84F6-F20ABD85A9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A5F2B2-E71B-4F04-A31F-AA3ED9CDE3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A5F2B2-E71B-4F04-A31F-AA3ED9CDE3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A5F2B2-E71B-4F04-A31F-AA3ED9CDE3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A5F2B2-E71B-4F04-A31F-AA3ED9CDE3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
