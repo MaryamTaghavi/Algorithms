@@ -30,7 +30,7 @@ var graph = new Dictionary<string, List<string>>
 };
 
 var resultBFS = SolveGraphBFS(graph);
-var resultDFS = SolveGraphDFS(graph.Keys.First() , graph , new HashSet<string>() , new List<string>());
+var resultDFS = SolveGraphDFS(graph.Keys.First(), graph, new HashSet<string>(), new List<string>());
 
 foreach (var item in resultBFS)
 {

@@ -27,9 +27,9 @@ Inorder Traversal (چپ → ریشه → راست)
 TreeNode root = new TreeNode();
 root.val = 1;
 root.left = null;
-root.right = new TreeNode() { val = 2 , left = new TreeNode() { val = 3} };
+root.right = new TreeNode() { val = 2, left = new TreeNode() { val = 3 } };
 
-var result= InorderTraversal(root);
+var result = InorderTraversal(root);
 Console.ReadLine();
 
 IList<int> InorderTraversal(TreeNode root)
