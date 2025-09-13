@@ -115,9 +115,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeInorderTraversal"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFS_BFS", "Tree\DFS_BFS\DFS_BFS.csproj", "{9D6244EC-8520-40E7-9752-33DA03B3A1B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthOfBinaryTree", "Tree\MaximumDepthOfBinaryTree\MaximumDepthOfBinaryTree.csproj", "{4985C61A-8C6C-443B-9F17-97F56B0BE35E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumDepthOfBinaryTree", "Tree\MaximumDepthOfBinaryTree\MaximumDepthOfBinaryTree.csproj", "{4985C61A-8C6C-443B-9F17-97F56B0BE35E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree", "Tree\BalancedBinaryTree\BalancedBinaryTree.csproj", "{3860513D-9E02-491E-AEBC-6FC478AE7FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBinaryTree", "Tree\BalancedBinaryTree\BalancedBinaryTree.csproj", "{3860513D-9E02-491E-AEBC-6FC478AE7FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvertBinaryTree", "Tree\InvertBinaryTree\InvertBinaryTree.csproj", "{F913D126-D20A-4DE7-8830-02366248CB50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{3860513D-9E02-491E-AEBC-6FC478AE7FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3860513D-9E02-491E-AEBC-6FC478AE7FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3860513D-9E02-491E-AEBC-6FC478AE7FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F913D126-D20A-4DE7-8830-02366248CB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F913D126-D20A-4DE7-8830-02366248CB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F913D126-D20A-4DE7-8830-02366248CB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F913D126-D20A-4DE7-8830-02366248CB50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -361,6 +367,7 @@ Global
 		{9D6244EC-8520-40E7-9752-33DA03B3A1B8} = {A5DC0424-9AEF-44F5-9280-109C14B6941D}
 		{4985C61A-8C6C-443B-9F17-97F56B0BE35E} = {A5DC0424-9AEF-44F5-9280-109C14B6941D}
 		{3860513D-9E02-491E-AEBC-6FC478AE7FDC} = {A5DC0424-9AEF-44F5-9280-109C14B6941D}
+		{F913D126-D20A-4DE7-8830-02366248CB50} = {A5DC0424-9AEF-44F5-9280-109C14B6941D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
