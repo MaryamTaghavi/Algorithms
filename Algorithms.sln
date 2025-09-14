@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitStrings", "SplitStrings\SplitStrings.csproj", "{4951DF0C-E07B-47B0-B4E5-932D980CFA82}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfDigits", "SumOfDigits\SumOfDigits.csproj", "{C5401232-A249-40CC-8375-244793CBEBE3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumeralsEncoder", "RomanNumeralsEncoder\RomanNumeralsEncoder.csproj", "{D6F8599F-D559-43B0-ABE7-444DADDCC230}"
@@ -127,16 +125,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyramidSlideDown", "Free\Py
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginationHelper", "Free\PaginationHelper\PaginationHelper.csproj", "{A4C73D5D-BF79-48C8-801C-432B68D26B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitStrings", "Free\SplitStrings\SplitStrings.csproj", "{66696936-FE62-49A7-A1A4-035E9FE23A81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4951DF0C-E07B-47B0-B4E5-932D980CFA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4951DF0C-E07B-47B0-B4E5-932D980CFA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4951DF0C-E07B-47B0-B4E5-932D980CFA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4951DF0C-E07B-47B0-B4E5-932D980CFA82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5401232-A249-40CC-8375-244793CBEBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5401232-A249-40CC-8375-244793CBEBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5401232-A249-40CC-8375-244793CBEBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -341,6 +337,10 @@ Global
 		{A4C73D5D-BF79-48C8-801C-432B68D26B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C73D5D-BF79-48C8-801C-432B68D26B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C73D5D-BF79-48C8-801C-432B68D26B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66696936-FE62-49A7-A1A4-035E9FE23A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66696936-FE62-49A7-A1A4-035E9FE23A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66696936-FE62-49A7-A1A4-035E9FE23A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66696936-FE62-49A7-A1A4-035E9FE23A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -390,6 +390,7 @@ Global
 		{40C715B0-B3AC-4F76-8DB5-3BE8872D4703} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{DD8B942C-AAEE-46C1-8ABE-B0CDFDB06870} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{A4C73D5D-BF79-48C8-801C-432B68D26B5F} = {08885E03-202E-427E-812E-49D7FD7263E1}
+		{66696936-FE62-49A7-A1A4-035E9FE23A81} = {08885E03-202E-427E-812E-49D7FD7263E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
