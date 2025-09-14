@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitStrings", "SplitString
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfDigits", "SumOfDigits\SumOfDigits.csproj", "{C5401232-A249-40CC-8375-244793CBEBE3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourOrder-Please", "YourOrder-Please\YourOrder-Please.csproj", "{EBA5BF80-8B8E-492A-A615-60DE9FA5D877}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumeralsEncoder", "RomanNumeralsEncoder\RomanNumeralsEncoder.csproj", "{D6F8599F-D559-43B0-ABE7-444DADDCC230}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatePhoneNumber", "CreatePhoneNumber\CreatePhoneNumber.csproj", "{35948702-8A2D-4F88-A789-3B998201B7FC}"
@@ -127,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheOddInt", "Free\FindT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingBigNumbers", "Free\AddingBigNumbers\AddingBigNumbers.csproj", "{FF03592C-E9DB-4485-9B35-1D58BA4B15DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOrder-Please", "Free\YourOrder-Please\YourOrder-Please.csproj", "{40C715B0-B3AC-4F76-8DB5-3BE8872D4703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,10 +141,6 @@ Global
 		{C5401232-A249-40CC-8375-244793CBEBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5401232-A249-40CC-8375-244793CBEBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5401232-A249-40CC-8375-244793CBEBE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBA5BF80-8B8E-492A-A615-60DE9FA5D877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBA5BF80-8B8E-492A-A615-60DE9FA5D877}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBA5BF80-8B8E-492A-A615-60DE9FA5D877}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBA5BF80-8B8E-492A-A615-60DE9FA5D877}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6F8599F-D559-43B0-ABE7-444DADDCC230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6F8599F-D559-43B0-ABE7-444DADDCC230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F8599F-D559-43B0-ABE7-444DADDCC230}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -341,6 +337,10 @@ Global
 		{FF03592C-E9DB-4485-9B35-1D58BA4B15DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF03592C-E9DB-4485-9B35-1D58BA4B15DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF03592C-E9DB-4485-9B35-1D58BA4B15DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C715B0-B3AC-4F76-8DB5-3BE8872D4703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C715B0-B3AC-4F76-8DB5-3BE8872D4703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C715B0-B3AC-4F76-8DB5-3BE8872D4703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C715B0-B3AC-4F76-8DB5-3BE8872D4703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -387,6 +387,7 @@ Global
 		{F5C8A384-DF54-4C7D-A2C6-30071E92081B} = {C013973C-7C21-43C0-A538-F9CD59C56D47}
 		{7E2CB448-0707-4D51-8879-BB60B270F5B9} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{FF03592C-E9DB-4485-9B35-1D58BA4B15DA} = {08885E03-202E-427E-812E-49D7FD7263E1}
+		{40C715B0-B3AC-4F76-8DB5-3BE8872D4703} = {08885E03-202E-427E-812E-49D7FD7263E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
