@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingArithmeticProgre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter", "Free\FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{BF20281A-A312-4262-A8B6-D06F9868BBAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanReadableTime", "Free\HumanReadableTime\HumanReadableTime.csproj", "{3494F55D-E550-4FB7-B451-01E5E94813E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -341,6 +343,10 @@ Global
 		{BF20281A-A312-4262-A8B6-D06F9868BBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF20281A-A312-4262-A8B6-D06F9868BBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF20281A-A312-4262-A8B6-D06F9868BBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3494F55D-E550-4FB7-B451-01E5E94813E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3494F55D-E550-4FB7-B451-01E5E94813E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3494F55D-E550-4FB7-B451-01E5E94813E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3494F55D-E550-4FB7-B451-01E5E94813E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -398,6 +404,7 @@ Global
 		{C733A5F8-88AE-413B-98A8-2CF30E057337} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{D512AF5D-F1D0-4D6F-8911-D13BFCF503DD} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{BF20281A-A312-4262-A8B6-D06F9868BBAE} = {08885E03-202E-427E-812E-49D7FD7263E1}
+		{3494F55D-E550-4FB7-B451-01E5E94813E2} = {08885E03-202E-427E-812E-49D7FD7263E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
