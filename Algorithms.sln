@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingArithmeticProgre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{934B5A3F-B1EC-4156-B8BA-E72E5E59AFD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGBToHexConversion", "RGBToHexConversion\RGBToHexConversion.csproj", "{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumerals", "RomanNumerals\RomanNumerals.csproj", "{C1719D5C-6BAE-43D9-9518-BBA330D35C54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{E39CAA02-8C7E-4A94-826F-CAD6CFCE882C}"
@@ -127,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigits", "Free\SumOfDi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePhoneNumber", "Free\CreatePhoneNumber\CreatePhoneNumber.csproj", "{43FF6BE4-0890-4D5C-A34E-03B1D6198829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBToHexConversion", "Free\RGBToHexConversion\RGBToHexConversion.csproj", "{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,10 +145,6 @@ Global
 		{934B5A3F-B1EC-4156-B8BA-E72E5E59AFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{934B5A3F-B1EC-4156-B8BA-E72E5E59AFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{934B5A3F-B1EC-4156-B8BA-E72E5E59AFD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFF7B69D-7C79-4AC5-BEAB-3B7EF1B4EAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1719D5C-6BAE-43D9-9518-BBA330D35C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -341,6 +337,10 @@ Global
 		{43FF6BE4-0890-4D5C-A34E-03B1D6198829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43FF6BE4-0890-4D5C-A34E-03B1D6198829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43FF6BE4-0890-4D5C-A34E-03B1D6198829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +393,7 @@ Global
 		{66696936-FE62-49A7-A1A4-035E9FE23A81} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{B052D045-2604-453B-9DD2-D113E7C3F204} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{43FF6BE4-0890-4D5C-A34E-03B1D6198829} = {08885E03-202E-427E-812E-49D7FD7263E1}
+		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0} = {08885E03-202E-427E-812E-49D7FD7263E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
