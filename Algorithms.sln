@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "SortingArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "SortingArray\InsertionSort\InsertionSort.csproj", "{F3AF7130-F8D7-45D9-9127-B67660C4CF5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSortWithLinkedList", "SortingArray\InsertionSortWithLinkedList\InsertionSortWithLinkedList.csproj", "{584FB268-1F5A-47E5-AE6E-1272048D4305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -359,6 +361,10 @@ Global
 		{F3AF7130-F8D7-45D9-9127-B67660C4CF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3AF7130-F8D7-45D9-9127-B67660C4CF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3AF7130-F8D7-45D9-9127-B67660C4CF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584FB268-1F5A-47E5-AE6E-1272048D4305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584FB268-1F5A-47E5-AE6E-1272048D4305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584FB268-1F5A-47E5-AE6E-1272048D4305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584FB268-1F5A-47E5-AE6E-1272048D4305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -419,6 +425,7 @@ Global
 		{9464BF02-5BFC-472A-A53B-EB8F1D3A7A44} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{30FB857F-31E1-4BA7-ACBF-C743E9820A4D} = {C4BCF3D6-7537-485C-99E8-28841BBFD29D}
 		{F3AF7130-F8D7-45D9-9127-B67660C4CF5D} = {C4BCF3D6-7537-485C-99E8-28841BBFD29D}
+		{584FB268-1F5A-47E5-AE6E-1272048D4305} = {C4BCF3D6-7537-485C-99E8-28841BBFD29D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
