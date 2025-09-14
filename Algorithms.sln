@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePhoneNumber", "Free\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBToHexConversion", "Free\RGBToHexConversion\RGBToHexConversion.csproj", "{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "Free\RomanNumerals\RomanNumerals.csproj", "{6911CF23-BA83-4803-915A-D50B3D1BD13B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -341,6 +343,10 @@ Global
 		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6911CF23-BA83-4803-915A-D50B3D1BD13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6911CF23-BA83-4803-915A-D50B3D1BD13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6911CF23-BA83-4803-915A-D50B3D1BD13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6911CF23-BA83-4803-915A-D50B3D1BD13B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -394,6 +400,7 @@ Global
 		{B052D045-2604-453B-9DD2-D113E7C3F204} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{43FF6BE4-0890-4D5C-A34E-03B1D6198829} = {08885E03-202E-427E-812E-49D7FD7263E1}
 		{2A9426E5-1E42-419B-86B6-E8D62FBBADA0} = {08885E03-202E-427E-812E-49D7FD7263E1}
+		{6911CF23-BA83-4803-915A-D50B3D1BD13B} = {08885E03-202E-427E-812E-49D7FD7263E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D36F8E-0E57-416E-BB67-BDEAADCDE5AA}
